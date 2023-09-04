@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONTS */
+@font-face {
+  font-family: "MabryPro";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./assets//Fonts/MabryPro/MabryPro-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "MabryPro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/Fonts/MabryPro/MabryPro-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "MabryPro";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/Fonts/MabryPro/MabryPro-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "MabryPro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/Fonts/MabryPro/MabryPro-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "MabryPro";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./assets/Fonts/MabryPro/MabryPro-Light.woff2") format("woff2");
+}
+
+/* for logo */
+@font-face {
+  font-family: "TarunoWide";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/Fonts//TarunoWide/Fontspring-DEMO-tarunowide-medium.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "TarunoWide";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/Fonts//TarunoWide/Fontspring-DEMO-tarunowide-bold.otf")
+    format("opentype");
+}
+
+/* GLOBAL STYLE */
+body {
+  font-family: "MabryPro", sans-serif;
+}
+
+.awssld__content {
+  background-color: transparent !important;
+}
+
+.awssld__timer {
+  background-color: rgba(240, 248, 255, 0.311) !important;
+  /* display: none !important; */
+}
+.awssld__bullets--active {
+  background-color: aliceblue !important;
+}
